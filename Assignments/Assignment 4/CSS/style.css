@@ -1,0 +1,111 @@
+/*
+Name: Omer Siddiqui
+Student number: 991587781 */
+
+body{
+    margin: 0 auto;
+    max-width: 56em;
+    padding: 1em 0;
+    background-image: url("../Images/eatery.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.datalabel{
+    font-size: 1em;
+    font-family: serif;
+    color: yellow;
+    font-style: italic;
+}
+.datatitle1{
+    font-size: 1em;
+    font-family: serif;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.datatitle2{
+    font-size: 1em;
+    font-family: serif;
+    color: darkviolet;
+    font-weight: bold;
+}
+
+.datatitle3{
+    font-size: 1em;
+    font-family: serif;
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.datasubs{
+    color: palegoldenrod;
+}
+
+.headwrap {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.headwrap > div {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: lightcoral;
+    padding: 1em;
+    color: purple;
+    text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 0.4em;
+}
+
+.module {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
+}
+
+.subgrid {
+    display: flex;
+    flex-wrap: wrap;
+    
+    display: grid;
+    grid-template-columns: repeat(none, minmax(200px, 1fr));
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 0.1em;
+  }
+  
+.submodule {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1 1 200px;
+  }
+
