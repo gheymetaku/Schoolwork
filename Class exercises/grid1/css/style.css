@@ -1,0 +1,17 @@
+body{
+	width: 80%;
+	box-shadow: 0 0 10px grey;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.myGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.myGrid img{
+	max-width: 100%;
+}

@@ -1,0 +1,3 @@
+A static website is a website that has content that does not change dynamically.
+It is not connected to a database, and as such the information is written directly into the HTML
+and will not change unless the web developer changes it manually by altering the code

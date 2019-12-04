@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    text-decoration: underline;
+    border: 2px dashed pink;
+    box-shadow: 3px 3px 3px 10px purple;
+}
+
+body{
+    border: 1px solid black ;
+    width: 600px;
+    margin: 0px auto;
+}
+
+img{
+    max-width: 10%;
+}
+
+li{
+    list-style-image: url(../arrow.png);
+}

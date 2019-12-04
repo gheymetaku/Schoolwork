@@ -1,0 +1,72 @@
+body{
+	width: 880px;
+	box-shadow: 0 0 10px grey;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "design1"
+		  "design2"
+		  "design4"
+		  "design3"
+}
+
+#design4{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	grid-area: design4;
+}
+
+#d4_text1{
+	grid-row-start:1;
+	grid-row-end:3;
+}
+
+#design2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-area: design2;
+}
+
+.myGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	grid-area: design1
+}
+
+#design3{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-area: design3
+}
+
+#design2 img, #design4 img,.myGrid img, #design3 img{
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 939px) {
+	body{
+		width: 96%;
+		padding: 2%;
+	}
+
+}
+@media only screen and (max-width: 849px) {
+	body{
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 731px) {
+	section {
+	    display: block !important;
+	}
+}

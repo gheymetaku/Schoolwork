@@ -1,0 +1,4 @@
+AuthUserFile /home/siddiome/public_html/Assignments/.htpasswd
+AuthType Basic
+AuthName "siddiome Assignments"
+Require valid-user
