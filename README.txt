@@ -1,1 +1,1 @@
-This directory contains all the work done during the years spent studying at Sheridan Colleges
+This directory contains all the work done during the years spent studying at Sheridan College
