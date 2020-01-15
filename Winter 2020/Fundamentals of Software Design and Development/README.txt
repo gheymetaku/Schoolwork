@@ -11,9 +11,9 @@ By the end of this course students will have demonstrated the ability to extend 
  	
 Learning Outcomes:
 
-To achieve the critical performance, students will have demonstrated the ability to:
+To achieve critical performance, students will have demonstrated the ability to:
 
-Evaluate different software design methodologies by exploring their use, strengths and limitations.
+To evaluate different software design methodologies by exploring their use, strengths and limitations.
 Explain abstraction, encapsulation, inheritance and polymorphism and how they contribute to maintainable, reusable programming code.
 Extend the requirements fulfilled by a software application using a design class model and a software modelling tool.
 Extend given source code to implement object-oriented design principles.
