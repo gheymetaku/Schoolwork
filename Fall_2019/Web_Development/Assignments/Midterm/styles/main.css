@@ -1,0 +1,79 @@
+body{
+    background-image: url("../images/autumn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1024px;
+    box-shadow: -500px -100px 500px darkviolet;
+    margin: 0 auto;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.listone{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;    
+    text-align: center;
+
+    border: 5px black;
+    border-style: solid none;
+}
+
+.items{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu{
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    size: 5px;
+    color: hotpink;
+    font-family: 'Lucida Sans';
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.first{
+    border-radius: 35px 0 0 0;
+}
+
+.last{
+    border-radius: 0 0 35px 0;
+}
+
+.final{
+    display: flex;
+}
+
+.fun{
+    color: purple;
+    font-family: Arial;
+    align-items: right;
+}
