@@ -1,1 +1,0 @@
-Coursework folder for the course Fundamentals oof Software Design and Development Winter 2020
